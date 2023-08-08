@@ -22,11 +22,11 @@
 
 .section6-card-left{
 
-  width:100%
+  width:100%;
 }
 .section6-card-left img{
   width:100%;
-  height:150px;
+  height:240px;
 }
 
 .section6-card-right{
@@ -57,6 +57,14 @@
       grid-column-gap: 50px;
 
     }
+    /* .section6-card-left{
+
+      width:100%;
+    }
+    .section6-card-left img{
+      width:100%;
+      height:180px;
+    } */
   }
 }
 @media screen and (max-width: 475px)  {
@@ -66,6 +74,14 @@
       grid-template-columns: repeat(1, 95%);
       grid-column-gap: 50px;
 
+    }
+    .section6-card-left{
+
+      width:100%;
+    }
+    .section6-card-left img{
+      width:100%;
+      height:240px;
     }
   }
 }
