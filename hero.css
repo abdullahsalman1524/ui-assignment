@@ -4,7 +4,13 @@
   width: 100%;
 }
 .hero_left_row1{
+  /* background: green; */
+  width: 100%;
   color:blue;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .hero_left{
   width: 50%;

@@ -37,6 +37,14 @@
   padding:10px;
   border-radius: 5px;
 }
+.section5-line2{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
 
 .section5-right{
   width:50%
@@ -72,6 +80,7 @@
       justify-content: start;
       align-items: start;
     }
+
   }
 }
 

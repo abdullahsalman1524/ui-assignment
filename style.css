@@ -3,6 +3,13 @@
   margin:0px;
   font-family: 'Inter';
 }
+@font-face {
+  font-family: 'Inter';
+  src: url('path/to/inter.woff2') format('woff2'),
+       url('path/to/inter.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .navbar_spacing{
   margin-left: 25px;
