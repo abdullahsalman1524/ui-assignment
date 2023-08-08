@@ -1,0 +1,36 @@
+.section3_header{
+  margin: 5%;
+
+  display: grid;
+  /* todo 1 row ma kitny div aain gay */
+  grid-template-columns: repeat(4, 25%);
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 375px)  {
+  body {
+    .section3_header{
+      margin: 5%;
+
+      display: grid;
+      /* todo 1 row  ma kitny div aain gay */
+      grid-template-columns: repeat(2, 50%);
+
+    }
+  }
+}
+
+@media screen and (max-width: 375px)   {
+  body {
+    .section3_header{
+      margin: 5%;
+
+      display: grid;
+      /* todo 1 row ma kitny div aain gay */
+      grid-template-columns: repeat(1, 100%);
+
+    }
+  }
+}
+
+

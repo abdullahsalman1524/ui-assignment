@@ -1,0 +1,128 @@
+.footer{
+  /* width: 95%; */
+  height: 492px;
+  background-color: #151b28;
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+.footerleft{
+  width: 100%;
+}
+.footer-colone{
+  width:100%;
+}
+.footer-colone img{
+  width: auto;
+}
+.footer-submit
+{
+  background-color: blue;
+  color:white;
+  border:none;
+  border-radius: 5px;
+
+}
+.footer-input
+{
+  background-color: #151b28;
+  color: white;
+}
+
+.footer-colone p{
+  color:rgba(165, 172, 186, 1);
+}
+
+.footer-right{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* padding-left: 20px; */
+}
+
+.footer-right1
+{
+  width: 33%;
+  /* padding-right: 20px; */
+}
+.footer-right2
+{
+  width: 33%;
+  /* padding-right: 20px;
+  padding-left: 20px; */
+}
+.footer-right3
+{
+  width: 33%;
+  /* padding-right: 20px;
+  padding-left: 20px; */
+}
+.footer-right-heading{
+  font-size: medium;
+  color:white;
+  padding-bottom: 20px;
+}
+.footer-right-para{
+  color:rgba(165, 172, 186, 1);
+  padding-top: 5px;
+}
+
+.footer-row1-input-btn{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) and (min-width: 475px)  {
+  body {
+    .footer{
+      /* width: 95%; */
+      height: 538px;
+      background-color: #151b28;
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+    }
+    .footerleft{
+      padding-bottom:40px;
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 475px)  {
+  body {
+    .footer{
+      /* width: 95%; */
+      height: auto;
+      background-color: #151b28;
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+    }
+    .footerleft{
+      padding-bottom:15px;
+      width: 100%;
+    }
+    .footer-right{
+      display: grid;
+      grid-template-columns: repeat(2, 50%);
+
+
+    }
+    .footer-right-heading{
+      font-size: large;
+      color:white;
+      padding-bottom: 8px;
+    }
+    .footer-right-para{
+      font-size: small;
+      color:rgba(165, 172, 186, 1);
+      padding-bottom: 1px;
+    }
+
+    .footer-row1-input-btn{
+      padding-top: 7px;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

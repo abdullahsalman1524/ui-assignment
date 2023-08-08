@@ -1,0 +1,71 @@
+.section6-container{
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.section6-row1
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section6-card{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.section6-card-left{
+
+  width:100%
+}
+.section6-card-left img{
+  width:100%;
+  height:150px;
+}
+
+.section6-card-right{
+  width:50%
+}
+
+/* todo this is social media */
+.social-media{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.profession{
+  color:blue;
+}
+
+.section6-card-header{
+  display: grid;
+  grid-template-columns: repeat(2, 47%);
+  grid-column-gap: 50px;
+
+}
+@media screen and (max-width: 768px) and (min-width: 475px)  {
+  body {
+    .section6-card-header{
+      display: grid;
+      grid-template-columns: repeat(1, 95%);
+      grid-column-gap: 50px;
+
+    }
+  }
+}
+@media screen and (max-width: 475px)  {
+  body {
+    .section6-card-header{
+      display: grid;
+      grid-template-columns: repeat(1, 95%);
+      grid-column-gap: 50px;
+
+    }
+  }
+}

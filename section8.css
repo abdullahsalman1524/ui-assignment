@@ -1,0 +1,103 @@
+.section8-container{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(43, 99, 217, 1);
+  padding: 80px;
+}
+.section8-data3{
+  width: 25%;
+}
+.section8-data1{
+  width: 25%;
+}
+.section8-data2{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+.section8-data2 h1{
+  color:white;
+}
+.section8-data2-button
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.section8-data2-button  button{
+
+  background-color: white;
+  color:blue;
+  width: 120px;
+  padding: 15px;
+  border:none;
+  border-radius: 5px;
+}
+.section8-login{
+  display: none;
+}
+@media screen and (max-width: 768px) and (min-width: 475px)  {
+  body {
+    .section8-data3{
+      width: 10%;
+    }
+    .section8-data1{
+      width: 10%;
+    }
+    .section8-data2{
+      width:80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+    }
+    .section8-login{
+      display: block;
+      margin-left: 20px;
+      background-color: blue;
+      color: white;
+    }
+  }
+}
+@media screen and (max-width: 475px)  {
+  body {
+    .section8-data3{
+      width: 10%;
+    }
+    .section8-data1{
+      width: 10%;
+    }
+    .section8-data2{
+      width:80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+    }
+    .section8-data2-button  button{
+
+      background-color: white;
+      color:blue;
+      width: 100%;
+      padding: 15px;
+      border:none;
+      border-radius: 5px;
+    }
+    .section8-data2-button
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .section8-login{
+      display: block;
+      margin-top: 20px;
+      background-color: blue;
+      color: white;
+    }
+  }
+}

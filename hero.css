@@ -1,0 +1,108 @@
+.hero_main_div{
+  display: flex;
+
+  width: 100%;
+}
+.hero_left_row1{
+  color:blue;
+}
+.hero_left{
+  width: 50%;
+  padding-left: 5%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+.hero_right{
+  display: flex;
+  flex-direction:row;
+  width: 50%;
+}
+.hero_right_img{
+  width: 100%;
+  height: 650px;
+  background-image: url('/images/Herodesktop.png');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left_button1{
+  background-color: blue;
+  color:white;
+  width:auto;
+  padding: 5px;
+  border:none;
+}
+.left_button2{
+  color:blue;
+  width:auto;
+  padding: 5px;
+  border:none;
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) and (min-width:375px) {
+  body {
+    .hero_main_div{
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+    .hero_left{
+      width: 100%;
+      padding-left: 5%;
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      flex-direction:column;
+    }
+    .hero_right{
+      display: flex;
+      flex-direction:row;
+      width: 100%;
+    }
+    .hero_right_img{
+      width: 100%;
+      height: 525px;
+      background-image: url('/images/Herodesktop.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  body {
+    .hero_main_div{
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+    .hero_left{
+      width: 100%;
+      padding-left: 5%;
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      flex-direction:column;
+    }
+    .hero_right{
+      display: flex;
+      flex-direction:row;
+      width: 100%;
+    }
+    .hero_right_img{
+      width: 100%;
+      height: 330px;
+      background-image: url('/images/mobile_hero.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}

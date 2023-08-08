@@ -1,0 +1,68 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+.navbar_spacing{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.login_spacing{
+  margin-right: 35px;
+}
+
+.login_navbar{
+  background-color: blue;
+  color:white;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  width:60px;
+  font-size: medium;
+  border-radius:5px;
+
+}
+.signup_navbar{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 5px;
+  color:blue;
+  font-size: medium;
+  background-color: white;
+}
+.navbar{
+  background:white;
+  padding-top:15px;
+}
+/* is width se chota */
+@media screen and (max-width: 768px) {
+  body {
+    .navbar_spacing{
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+    .login_spacing{
+      margin-right: 0px;
+    }
+    .signup_navbar{
+      color:blue;
+      font-size: large;
+      background-color: white;
+    }
+    .login_navbar{
+      background-color: blue;
+      color:white;
+
+
+      width:60px;
+      font-size: large;
+      border-radius:5px;
+
+    }
+  }
+}
+
+.nav-link
+{
+  color:black;
+}
