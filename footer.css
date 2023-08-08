@@ -126,3 +126,22 @@
     }
   }
 }
+
+.secondfooter
+{
+  background-color: #151b28;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+
+}
+.secondfooter p
+{
+  color:rgba(165, 172, 186, 1);
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
