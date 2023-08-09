@@ -9,7 +9,24 @@
 
 .section3_header div h1
 {
-  font-weight: bold;
+  color: var(--gray-700, #272D37);
+/* Headline L/Desktop/Semibold */
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 122.222% */
+letter-spacing: -0.72px;
+}
+.section3_header div p{
+  color: var(--gray-50, #5F6D7E);
+/* Text L/Regular */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.1px;
 }
 
 @media screen and (max-width: 768px) and (min-width: 375px)  {

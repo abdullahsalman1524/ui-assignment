@@ -1,7 +1,7 @@
 .section5-container{
   width: 100%;
   height: auto;
-  padding:80px;
+  padding:64px 64px;
   display: flex;
   flex-direction: row;
 }
@@ -28,13 +28,14 @@
   padding-right: 10px;
   justify-content: start;
   align-items: start;
+  gap: 15px;
 }
 .section5-button button{
   width: auto;
   border:none;
   background-color: rgba(67, 126, 247, 1);
   color:white;
-  padding:10px;
+  padding:18px;
   border-radius: 5px;
 }
 .section5-line2{
@@ -47,7 +48,14 @@
 }
 .section5-line2 p{
 
-  font-weight: bold;
+  color: var(--gray-700, #272D37);
+/* Headline M/Desktop/Semibold */
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px; /* 131.25% */
+letter-spacing: -0.32px;
 }
 
 .section5-right{

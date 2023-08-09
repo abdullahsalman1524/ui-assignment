@@ -1,10 +1,19 @@
 .hero_main_div{
   display: flex;
-
+  padding: 48px 32px 80px 32px;
   width: 100%;
 }
 .supercharged h1{
   font-weight: bold;
+}
+.supercharged p{
+  color: var(--gray-50, #5F6D7E);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+letter-spacing: -0.1px;
 }
 
 .hero_left_row1{
@@ -18,7 +27,7 @@
 }
 .hero_left{
   width: 50%;
-  padding-left: 5%;
+  /* padding-left: 5%; */
   display: flex;
 
   justify-content: center;
@@ -38,18 +47,46 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.hero_left .hero_left_buttons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+svg{
+  width: 20px;
+  height: 15px;
+}
+.hero_left_buttons_div
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
 
 .left_button1{
-  background-color: blue;
+  background-color: #437EF7;
   color:white;
   width:auto;
-  padding: 5px;
+  padding: 12px 18px;
+  border-radius: 3px;
   border:none;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
 }
 .left_button2{
-  color:blue;
+  color:#437EF7;
   width:auto;
   padding: 5px;
+    font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
   border:none;
   background-color: white;
 }

@@ -1,7 +1,7 @@
 .section4-header{
   background-color: #2b63d9;
   height: auto;
-  padding:80px;
+  padding:64px 64px;
 }
 
 .section4-div1
@@ -17,8 +17,15 @@
   font-weight: bold;
 }
 .section4-div1 p{
-  font-size: medium;
-  color:rgba(177, 204, 251, 1);
+  color: var(--primary-200, #B1CCFB);
+text-align: center;
+/* Text L/Regular */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.1px;
 }
 
 .line1{
@@ -27,7 +34,7 @@
 }
 .card{
  background-color:  rgba(57, 113, 231, 1);
- padding:20px;
+ padding: 24px 32px;
 
 }
 .left{
@@ -40,26 +47,44 @@
   font-size: medium;
 }
 .right button{
+
+
+  padding: 12px 18px;
+
+  gap: 6px;
+
   width: 100%;
   height: auto;
   font-size: small;
-  padding:5px;
+
   background-color: white;
-  color:rgba(57, 113, 231, 1);
+  color: var(--primary-600, #437EF7);
   border:none;
   border-radius: 5px;
 }
 .line2 h5
 {
-  padding-top: 10px;
-  font-size: medium;
-  color:white;
-  font-weight: bold;
+  color: var(--base-white, #FFF);
+/* Headline XS/Desktop/Semibold */
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 136.364% */
+  letter-spacing: -0.22px;
+  padding-top: 24px;
 }
 .line2 p
 {
   padding-top: 10px;
-  color:white;
+  color: var(--primary-200, #B1CCFB);
+/* Text L/Regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.1px;
 
 }
 
@@ -77,7 +102,7 @@
     .section4-card-header{
 
       display: grid;
-      grid-template-columns: repeat(2, 50%);
+      grid-template-columns: repeat(2, 47%);
       grid-column-gap: 50px;
       margin-bottom: 30px;
 
@@ -89,9 +114,9 @@
     .section4-card-header{
 
       display: grid;
-      grid-template-columns: repeat(1, 100%);
-      grid-column-gap: 50px;
-      margin-bottom: 30px;
+      grid-template-columns: repeat(1, 95%);
+      grid-column-gap: 32px;
+      margin-bottom: 32px;
 
     }
     .section4-header{
