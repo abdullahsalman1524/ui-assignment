@@ -41,7 +41,7 @@ letter-spacing: -0.1px;
   width:200%;
 }
 .section6-card-left img{
-  width:100%;
+  width:140%;
   height:240px;
 }
 
@@ -76,11 +76,11 @@ letter-spacing: -0.1px;
     /* .section6-card-left{
 
       width:100%;
-    }
+    }*/
     .section6-card-left img{
-      width:100%;
+      width:130%;
       height:180px;
-    } */
+    }
   }
 }
 @media screen and (max-width: 475px)  {
@@ -96,8 +96,8 @@ letter-spacing: -0.1px;
       width:200%;
     }
     .section6-card-left img{
-      width:100%;
-      height:180px;
+      width:140%;
+      height:240px;
     }
   }
 }
