@@ -3,6 +3,10 @@
 
   width: 100%;
 }
+.supercharged h1{
+  font-weight: bold;
+}
+
 .hero_left_row1{
   /* background: green; */
   width: 100%;

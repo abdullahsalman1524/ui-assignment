@@ -45,6 +45,10 @@
   justify-content: start;
   align-items: start;
 }
+.section5-line2 p{
+
+  font-weight: bold;
+}
 
 .section5-right{
   width:50%

@@ -7,6 +7,11 @@
 
 }
 
+.section3_header div h1
+{
+  font-weight: bold;
+}
+
 @media screen and (max-width: 768px) and (min-width: 375px)  {
   body {
     .section3_header{

@@ -14,10 +14,11 @@
 .section4-div1 h3{
   font-size: x-large;
   color:white;
+  font-weight: bold;
 }
 .section4-div1 p{
   font-size: medium;
-  color:white;
+  color:rgba(177, 204, 251, 1);
 }
 
 .line1{
@@ -53,7 +54,7 @@
   padding-top: 10px;
   font-size: medium;
   color:white;
-
+  font-weight: bold;
 }
 .line2 p
 {

@@ -12,6 +12,10 @@
   justify-content: center;
   align-items: center;
 }
+.section6-row1 h1
+{
+ font-weight: bold;
+}
 
 .section6-card{
   width: 100%;

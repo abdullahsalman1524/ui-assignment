@@ -11,6 +11,11 @@
   justify-content: center;
   align-items: center;
 }
+.section7-row1 h1
+{
+  font-weight: bold;
+}
+
 .section7-table{
   width:100%;
 
