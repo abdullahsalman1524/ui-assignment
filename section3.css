@@ -1,6 +1,7 @@
 .section3_header{
-  margin: 5%;
-
+  /* padding: 64px 0px 64px 0px; */
+  /* gap:  64px; */
+  margin:6%;
   display: grid;
   /* todo 1 row ma kitny div aain gay */
   grid-template-columns: repeat(4, 25%);

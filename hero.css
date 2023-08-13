@@ -1,6 +1,6 @@
 .hero_main_div{
   display: flex;
-  /* padding: 48px 32px 80px 32px; */
+  padding: 0px 0px 40px 64px;
   width: 100%;
 
 }
@@ -100,6 +100,7 @@ svg{
   body {
     .hero_main_div{
       display: flex;
+      padding: 0px 0px 40px 0px;
       flex-direction: column-reverse;
       width: 100%;
     }
@@ -131,6 +132,7 @@ svg{
   body {
     .hero_main_div{
       display: flex;
+      padding: 0px 0px 40px 0px;
       flex-direction: column-reverse;
       width: 100%;
     }

@@ -77,7 +77,7 @@ letter-spacing: -0.32px;
     .section5-container{
       width: 100%;
       height: auto;
-      padding:40px, 32px, 40px, 32px;
+      padding: 40px, 32px, 40px, 32px;
       display: flex;
       flex-direction: column;
     }
@@ -109,7 +109,7 @@ letter-spacing: -0.32px;
 }
 
 
-@media screen and (max-width: 375px)   {
+@media screen and (max-width: 376px)   {
   body {
     .section5-container{
       width: 100%;
