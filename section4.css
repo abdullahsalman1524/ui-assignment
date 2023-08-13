@@ -246,7 +246,7 @@
       width: 100%;
       /* background-color: aqua; */
       display: grid;
-      grid-template-columns: repeat(1, 110%);
+      grid-template-columns: repeat(1, 100%);
     }
     .section4-header{
       background-color: #2b63d9;
