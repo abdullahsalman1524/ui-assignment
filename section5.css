@@ -1,7 +1,7 @@
 .section5-container{
   width: 100%;
   height: auto;
-  padding:40px 32px 40px 32px;
+  padding:64px 64px 64px 64px;
   display: flex;
   flex-direction: row;
   gap:64px;
