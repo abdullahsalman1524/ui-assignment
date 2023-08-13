@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   background-color: rgba(43, 99, 217, 1);
-  padding: 80px;
+  padding: 64px 0px 64px 0px;
 }
 .section8-data3{
   width: 25%;
@@ -27,10 +27,10 @@
   align-items: center;
   justify-content: center;
 }
-.section8-data2-button  button{
+.section8-signup{
 
   background-color: white;
-  color:blue;
+  color:rgba(67, 126, 247, 1);
   width: 120px;
   padding: 15px;
   border:none;
@@ -39,8 +39,16 @@
 .section8-login{
   display: none;
 }
-@media screen and (max-width: 768px) and (min-width: 475px)  {
+@media screen and (max-width: 768px) and (min-width: 375px)  {
   body {
+
+    .section8-container{
+      display: flex;
+      flex-direction: row;
+      background-color: rgba(43, 99, 217, 1);
+      padding: 40px 32px 40px 32px
+    }
+
     .section8-data3{
       width: 10%;
     }
@@ -55,15 +63,25 @@
       justify-items: center;
     }
     .section8-login{
+      width: 120px;
+      padding: 15px;
+      border:none;
+      border-radius: 5px;
       display: block;
       margin-left: 20px;
-      background-color: blue;
+      background-color: rgba(67, 126, 247, 1);
       color: white;
     }
   }
 }
-@media screen and (max-width: 475px)  {
+@media screen and (max-width: 375px)  {
   body {
+    .section8-container{
+      display: flex;
+      flex-direction: row;
+      background-color: rgba(43, 99, 217, 1);
+      padding: 32px 16px 32px 16px
+    }
     .section8-data3{
       width: 10%;
     }
@@ -77,10 +95,10 @@
       justify-content: center;
       justify-items: center;
     }
-    .section8-data2-button  button{
+    .section8-signup{
 
       background-color: white;
-      color:blue;
+      color:rgba(67, 126, 247, 1);
       width: 100%;
       padding: 15px;
       border:none;
@@ -94,9 +112,13 @@
       justify-content: center;
     }
     .section8-login{
+      width: 100%;
+      padding: 15px;
+      border:none;
+      border-radius: 5px;
       display: block;
       margin-top: 20px;
-      background-color: blue;
+      background-color: rgba(67, 126, 247, 1);
       color: white;
     }
   }

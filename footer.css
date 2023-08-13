@@ -4,10 +4,7 @@
   background-color: #151b28;
   display: flex;
   flex-direction: row;
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 0px;
+  padding: 40px 32px 40px 32px;
 }
 .footerleft{
   width: 100%;
@@ -23,22 +20,23 @@
   border-radius: 0px 6px 6px 0px;
   background: var(--primary-600, #437EF7);
   color:white;
-  padding:6px 6px 3px 6px;
-
+  border:none;
+  padding:15px;
+  height:48px;
 }
 .footer-input
 {
   background: var(--gray-600, #2C3444);
   color:  #A5ACBA;
-/* Text M/Regular */
-font-family: Inter;
-font-size: 15px;
-height:35px;
-font-style: normal;
-padding-left: 10px;
-font-weight: 400;
-line-height: 22px; /* 146.667% */
-letter-spacing: -0.1px;;
+  padding:15px;
+  font-family: Inter;
+  font-size: 15px;
+  height:48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+
+  border:none
 }
 
 .footer-colone p{
@@ -49,7 +47,7 @@ letter-spacing: -0.1px;;
   width: 100%;
   display: flex;
   flex-direction: row;
-  /* padding-left: 20px; */
+
 }
 
 .footer-right1
@@ -78,6 +76,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 24px; /* 150% */
 letter-spacing: -0.1px;
+width:50%;
 }
 .footer-right-para{
   color:rgba(165, 172, 186, 1);
@@ -127,7 +126,7 @@ letter-spacing: -0.1px;
     }
     .footer-right{
       display: grid;
-      grid-template-columns: repeat(2, 50%);
+      grid-template-columns: repeat(2, 48%);
 
 
     }
@@ -143,9 +142,36 @@ letter-spacing: -0.1px;
     }
 
     .footer-row1-input-btn{
+
+      width: 100%;
       padding-top: 7px;
       display: flex;
       flex-direction: row;
+      border:none;
+    }
+    .footer-submit
+    {
+      height: 55px;
+      border-radius: 0px 6px 6px 0px;
+      background: var(--primary-600, #437EF7);
+      color:white;
+      padding:15px;
+      border:none;
+    }
+    .footer-input
+    {
+      padding:15px;
+      background: var(--gray-600, #2C3444);
+      color:  #A5ACBA;
+      width:75%;
+      font-family: Inter;
+      font-size: 25px;
+      height:55px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+
+      border:none
     }
   }
 }
@@ -168,4 +194,3 @@ letter-spacing: -0.1px;
   justify-content: center;
   align-items: center;
 }
-

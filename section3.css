@@ -45,7 +45,7 @@ letter-spacing: -0.1px;
 @media screen and (max-width: 375px)   {
   body {
     .section3_header{
-      margin: 5%;
+      /* margin: 5%; */
 
       display: grid;
       /* todo 1 row ma kitny div aain gay */

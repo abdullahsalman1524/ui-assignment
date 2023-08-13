@@ -1,7 +1,8 @@
 .hero_main_div{
   display: flex;
-  padding: 48px 32px 80px 32px;
+  /* padding: 48px 32px 80px 32px; */
   width: 100%;
+
 }
 .supercharged h1{
   font-weight: bold;
@@ -29,7 +30,7 @@ letter-spacing: -0.1px;
   width: 50%;
   /* padding-left: 5%; */
   display: flex;
-
+  padding: 30px;;
   justify-content: center;
   align-items: center;
   flex-direction:column;
@@ -47,8 +48,10 @@ letter-spacing: -0.1px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero_left .hero_left_buttons
+ .hero_left_buttons
 {
+  padding-top: 15px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -61,6 +64,7 @@ svg{
 }
 .hero_left_buttons_div
 {
+
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -71,7 +75,7 @@ svg{
 .left_button1{
   background-color: #437EF7;
   color:white;
-  width:auto;
+
   padding: 12px 18px;
   border-radius: 3px;
   border:none;
@@ -82,7 +86,7 @@ svg{
 }
 .left_button2{
   color:#437EF7;
-  width:auto;
+
   padding: 5px;
     font-size: 15px;
   font-style: normal;
@@ -132,7 +136,7 @@ svg{
     }
     .hero_left{
       width: 100%;
-      padding-left: 5%;
+      /* padding-left: 5%; */
       display: flex;
 
       justify-content: center;
@@ -151,6 +155,24 @@ svg{
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+    }
+    .hero_left_buttons
+    {
+
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap:32px;
+    }
+    .hero_left_buttons_div
+    {
+      width: 100%;
+    }
+    .left_button1{
+      width: 100%;
+    }
+    .left_button2{
+      width: 100%;
     }
   }
 }
