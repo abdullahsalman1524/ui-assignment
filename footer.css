@@ -187,6 +187,7 @@ width:50%;
 }
 .secondfooter p
 {
+  border-top: 1px rgba(165, 172, 186, 1);;
   color:rgba(165, 172, 186, 1);
   display: flex;
   padding: 40px;
