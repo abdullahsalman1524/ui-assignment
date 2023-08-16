@@ -10,6 +10,10 @@
 
 }
 
+.navbar-header{
+  padding-bottom: 20px;
+}
+
 .navbar_spacing{
   margin-left: 25px;
   margin-right: 25px;
@@ -19,27 +23,56 @@
 }
 
 .login_navbar{
-  background-color: blue;
-  color:white;
-  padding-left: 10px;
-  padding-right: 10px;
+  background-color: rgba(67, 126, 247, 1);
+  color:rgba(255, 255, 255, 1);
+  width: 80px;
+  height:  46px;
+  padding: 12px 18px 12px 18px;
+  border-radius: 6px;
+  gap: 6px;
 
-  width:60px;
-  font-size: medium;
-  border-radius:5px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+
 
 }
 .signup_navbar{
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-right: 5px;
-  color:blue;
-  font-size: medium;
-  background-color: white;
+  padding: 12px 18px 12px 18px;
+  /* margin-right: 5px; */
+  color:rgba(67, 126, 247, 1);
+  background:rgba(234, 235, 240, 1);
+
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  border:none;
+
 }
+
+.my-nav-links
+{
+
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(39, 45, 55, 1);
+
+}
+
 .navbar{
-  background:white;
+  background:rgba(234, 235, 240, 1);
   padding-top:15px;
+  border-bottom: 1px black;
 }
 /* is width se chota */
 @media screen and (max-width: 768px) {
