@@ -113,7 +113,7 @@
 /* todo start of hero section */
 .hero_main_div{
   display: flex;
-  padding: 0px 0px 40px 64px;
+  padding: 0px 0px 0px 64px;
   width: 100%;
 
 }
@@ -157,9 +157,10 @@ letter-spacing: -0.1px;
   width: 100%;
   height: 650px;
   background-image: url('/images/Herodesktop.png');
-
+  /* transform: rotate(4deg); */
   background-repeat: no-repeat;
   background-size: cover;
+  /* overflow: hidden; */
 }
  .hero_left_buttons
 {
@@ -297,15 +298,19 @@ svg{
 
 /* start of section 3 */
 .section3_header{
-  /* padding: 64px 0px 64px 0px; */
-  /* gap:  64px; */
-  margin:6%;
+  padding: 64px 64px 64px 64px;
+
+  gap:32px;
   display: grid;
   /* todo 1 row ma kitny div aain gay */
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(4, auto);
+  background: rgba(255, 255, 255, 1);
 
 }
-
+.section3_header div
+{
+  gap:8px;
+}
 .section3_header div h1
 {
   color: var(--gray-700, #272D37);
@@ -331,11 +336,15 @@ letter-spacing: -0.1px;
 @media screen and (max-width: 768px) and (min-width: 375px)  {
   body {
     .section3_header{
-      margin: 5%;
+
+      padding: 40px 32px 40px 32px;
+      gap: 32px;
+
+      background-color: (255, 255, 255, 1);
 
       display: grid;
       /* todo 1 row  ma kitny div aain gay */
-      grid-template-columns: repeat(2, 50%);
+      grid-template-columns: repeat(2, auto);
 
     }
   }
@@ -344,11 +353,14 @@ letter-spacing: -0.1px;
 @media screen and (max-width: 375px)   {
   body {
     .section3_header{
-      /* margin: 5%; */
+
+      padding: 32px 16px 32px 16px;
+      gap: 32px;
+      background-color: (255, 255, 255, 1);
 
       display: grid;
       /* todo 1 row ma kitny div aain gay */
-      grid-template-columns: repeat(1, 100%);
+      grid-template-columns: repeat(1, auto);
 
     }
   }
