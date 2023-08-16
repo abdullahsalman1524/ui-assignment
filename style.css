@@ -12,6 +12,7 @@
 
 .navbar-header{
   padding-bottom: 20px;
+
 }
 
 .navbar_spacing{
@@ -44,7 +45,7 @@
   padding: 12px 18px 12px 18px;
   /* margin-right: 5px; */
   color:rgba(67, 126, 247, 1);
-  background:rgba(234, 235, 240, 1);
+  background:rgba(248, 249, 251, 1);
 
   font-family: Inter;
   font-size: 15px;
@@ -70,9 +71,10 @@
 }
 
 .navbar{
-  background:rgba(234, 235, 240, 1);
+
+  background:rgba(248, 249, 251, 1);
   padding-top:15px;
-  border-bottom: 1px black;
+  border-bottom: 1px solid rgba(234, 235, 240, 1);
 }
 /* is width se chota */
 @media screen and (max-width: 768px) {
@@ -105,10 +107,7 @@
   }
 }
 
-.nav-link
-{
-  color:black;
-}
+
 /* todo end of navbar */
 
 /* todo start of hero section */
