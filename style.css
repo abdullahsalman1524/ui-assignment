@@ -138,6 +138,7 @@ letter-spacing: -0.1px;
   /* flex-direction: row; */
   justify-content: flex-start;
   align-items: flex-start;
+  gap:8px;
 }
 .hero_left{
   width: 50%;
@@ -201,7 +202,7 @@ svg{
 .left_button2{
   color:#437EF7;
 
-  padding: 5px;
+  padding: 12px 18px;
     font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -246,7 +247,7 @@ svg{
   body {
     .hero_main_div{
       display: flex;
-      padding: 0px 0px 40px 0px;
+      padding: 0px 0px 15px 0px;
       flex-direction: column-reverse;
       width: 100%;
     }
@@ -271,6 +272,8 @@ svg{
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      /* transform: rotate(10deg); */
+      overflow: hidden;
     }
     .hero_left_buttons
     {
@@ -354,7 +357,7 @@ letter-spacing: -0.1px;
   body {
     .section3_header{
 
-      padding: 32px 16px 32px 16px;
+      padding: 7px 16px 12px 16px;
       gap: 32px;
       background-color: (255, 255, 255, 1);
 
@@ -1453,6 +1456,7 @@ letter-spacing: -0.32px;
   padding: 15px;
   border:none;
   border-radius: 5px;
+  font-weight: 600;;
 }
 .section8-login{
   display: none;
@@ -1487,6 +1491,7 @@ letter-spacing: -0.32px;
       width: 120px;
       padding: 15px;
       border:none;
+      font-weight: 600;;
       border-radius: 5px;
       display: block;
       margin-left: 20px;
@@ -1528,6 +1533,7 @@ letter-spacing: -0.32px;
       padding: 15px;
       border:none;
       border-radius: 5px;
+      font-weight: 600;;
     }
     .section8-data2-button
     {
@@ -1539,6 +1545,7 @@ letter-spacing: -0.32px;
     .section8-login{
       width: 100%;
       padding: 15px;
+      font-weight: 600;
       border:none;
       border-radius: 5px;
       display: block;
