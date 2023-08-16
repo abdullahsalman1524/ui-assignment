@@ -1592,6 +1592,7 @@ letter-spacing: -0.32px;
   background: var(--gray-600, #2C3444);
   color:  #A5ACBA;
   padding:15px;
+
   font-family: Inter;
   font-size: 15px;
   height:48px;
@@ -1760,6 +1761,10 @@ letter-spacing: -0.32px;
 
       border:none;
       text-align: center;
+      display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
     }
     .footer-input
     {
@@ -1768,7 +1773,7 @@ letter-spacing: -0.32px;
       color:  #A5ACBA;
       width:75%;
       font-family: Inter;
-      font-size: 13px;
+      font-size: 14px;
       height:40px;
       font-style: normal;
       font-weight: 400;
