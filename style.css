@@ -1704,7 +1704,28 @@ letter-spacing: -0.32px;
       width:75%;
       border:none
     }
+    .footer-right{
+      width:100%;
+      display: grid;
+      grid-template-columns: repeat(3, 33.3%);
 
+
+    }
+    .footer-right1
+    {
+
+      width:100%
+    }
+    .footer-right2
+    {
+
+      width:100%
+    }
+    .footer-right3
+    {
+
+      width:100%
+    }
   }
 }
 @media screen and (max-width: 475px)  {
@@ -1729,8 +1750,22 @@ letter-spacing: -0.32px;
     .footer-right{
       display: grid;
       grid-template-columns: repeat(2, auto);
+      width: 100%;
 
+    }
+    .footer-right1
+    {
 
+      width:100%
+    }
+    .footer-right2
+    {
+
+      width:100%
+    }
+    .footer-right3
+    {
+      width:100%
     }
     .footer-right-heading{
       font-size: large;
