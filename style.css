@@ -1623,7 +1623,7 @@ letter-spacing: -0.32px;
     }
   }
 }
-@media screen and (max-width: 375px)  {
+@media screen and (max-width: 376px)  {
   body {
     .section8-container{
       display: flex;
@@ -1796,6 +1796,7 @@ letter-spacing: -0.32px;
     .footerleft{
       padding-bottom:40px;
       width: 100%;
+      padding-left: 0px;
     }
     .footer-colone p{
       width: 100%;
@@ -1875,6 +1876,7 @@ letter-spacing: -0.32px;
     .footerleft{
       padding-bottom:15px;
       width: 100%;
+      padding-left: 0px;
     }
     .footer-right{
       display: grid;
