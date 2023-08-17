@@ -149,6 +149,10 @@ letter-spacing: -0.1px;
   align-items: flex-start;
   gap:8px;
 }
+.hero_left_row1 i{
+ padding-right: 10px;
+}
+
 .hero_left{
   width: 50%;
   /* padding-left: 5%; */
