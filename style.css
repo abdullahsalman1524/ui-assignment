@@ -1582,7 +1582,7 @@ letter-spacing: -0.32px;
 .section8-login{
   display: none;
 }
-@media screen and (max-width: 768px) and (min-width: 375px)  {
+@media screen and (max-width: 768px) and (min-width: 376px)  {
   body {
     .section8-data2 h1{
       color:white;
