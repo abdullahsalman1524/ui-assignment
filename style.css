@@ -435,6 +435,9 @@ letter-spacing: -0.1px;
   /* padding: 8px; */
   border-radius: 30px;
   background-color: rgba(67, 126, 247, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section4-card-lin1-btn
 {
@@ -587,11 +590,14 @@ letter-spacing: -0.1px;
     }
     .section4-card-line1-img
     {
-      width:  22px;
-      height:  22px;
+      width:  16px;
+      height:  16px;
       /* padding: 8px; */
       /* border-radius: 12px; */
       background-color: rgba(67, 126, 247, 1);
+      display: flex;
+      justify-content: center;
+      align-self: center;
     }
 
     .section4-card-line1-img image
