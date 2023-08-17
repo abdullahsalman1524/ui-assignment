@@ -1300,6 +1300,11 @@ letter-spacing: -0.32px;
       gap: 24px;
 
     }
+    .section7-line1{
+      padding-left: 0px;
+      padding-right: 0px;;
+      gap:8px;
+    }
     .table-container
     {
       border-radius: 5px;
@@ -1358,6 +1363,20 @@ letter-spacing: -0.32px;
 
       color:rgba(39, 45, 55, 1)
 
+    }
+    .section7-line1 p
+    {
+
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.10000000149011612px;
+      text-align: center;
+      color:rgba(95, 109, 126, 1);
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
     }
 
 
@@ -1482,6 +1501,7 @@ letter-spacing: -0.32px;
 .section8-data2 h1{
   color:white;
   text-align: center;
+  font-size: 2rem;
 }
 .section8-data2-button
 {
@@ -1528,6 +1548,8 @@ letter-spacing: -0.32px;
       flex-direction: column;
       justify-content: center;
       justify-items: center;
+      padding-left: 0px;
+      padding-right: 0px;
     }
     .section8-login{
       width: 120px;
@@ -1553,6 +1575,7 @@ letter-spacing: -0.32px;
     .section8-data2 h1{
       color:white;
       text-align: center;
+      font-size: 28px;;
     }
     .section8-data3{
       width: 0%;
@@ -1566,6 +1589,8 @@ letter-spacing: -0.32px;
       flex-direction: column;
       justify-content: center;
       justify-items: center;
+      padding-left: 0px;
+      padding-right: 0px;
     }
     .section8-signup{
 
