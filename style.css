@@ -271,7 +271,7 @@ svg{
     }
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   body {
     .hero_main_div{
       display: flex;
@@ -411,7 +411,7 @@ letter-spacing: -0.1px;
   }
 }
 
-@media screen and (max-width: 375px)   {
+@media screen and (max-width: 376px)   {
   body {
     .section3_header{
 
@@ -1082,7 +1082,7 @@ letter-spacing: -0.32px;
 }
 
 /* for small screeens  */
-@media screen and (max-width: 375px)  {
+@media screen and (max-width: 376px)  {
   body {
 
     .section6-contianer{
@@ -1962,7 +1962,7 @@ letter-spacing: -0.32px;
   border-top: 1px rgba(165, 172, 186, 1);;
   color:rgba(165, 172, 186, 1);
   display: flex;
-  padding: 40px;
+  padding: 40px 0px 40px 0px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
