@@ -1440,6 +1440,11 @@ letter-spacing: -0.32px;
     {
       display: none;
     }
+    .section7-line1{
+      padding-left: 0px;
+      padding-right: 0px;;
+      gap:8px;
+    }
     .section7-row1-left
     {
       width:75%;
@@ -1508,6 +1513,17 @@ letter-spacing: -0.32px;
 
       border-radius: 5px;
       border: 1px solid rgba(234, 235, 240, 1);
+
+    }
+    .section7-line1 h1
+    {
+      font-family: Inter;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -0.02em;
+      text-align: center;
+      color:rgba(39, 45, 55, 1)
 
     }
 
