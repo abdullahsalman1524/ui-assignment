@@ -312,6 +312,8 @@ svg{
 }
 .section3_header div
 {
+  padding-left: 32px;
+  padding-right: 32px;
   gap:8px;
 }
 .section3_header div h1
@@ -350,6 +352,12 @@ letter-spacing: -0.1px;
       grid-template-columns: repeat(2, auto);
 
     }
+    .section3_header div
+    {
+      padding-left: 0px;
+      padding-right: 0px;;
+      gap:8px;
+    }
   }
 }
 
@@ -365,6 +373,12 @@ letter-spacing: -0.1px;
       /* todo 1 row ma kitny div aain gay */
       grid-template-columns: repeat(1, auto);
 
+    }
+    .section3_header div
+    {
+      padding-left: 0px;
+      padding-right: 0px;;
+      gap:8px;
     }
   }
 }
@@ -408,7 +422,7 @@ letter-spacing: -0.1px;
 .section4-card-container
 {
   width:100%;
-  padding: 0px 32px 0px 0px;
+  padding: 0px 32px 0px 32px;
   gap: 32px;
 
 }
@@ -492,7 +506,7 @@ letter-spacing: -0.1px;
 {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 32%);
+  grid-template-columns: repeat(3, auto);
 }
 @media screen and (max-width: 1000px) and (min-width:880px) {
   body {
@@ -532,7 +546,7 @@ letter-spacing: -0.1px;
     .section4-header{
       background-color: #2b63d9;
       height: auto;
-      padding:40px;
+      padding:40px 32px;
     }
   }
 }
